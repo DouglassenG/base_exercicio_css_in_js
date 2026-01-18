@@ -45,3 +45,19 @@ base_exercicio_css_in_js/
 ├── index.html           # HTML base
 ├── package.json         # Lista de dependências e scripts
 └── vite.config.js       # Configuração do bundler
+```
+
+## 📦 Instalação e Execução
+
+# 1. Clone o repositório
+git clone [https://github.com/DouglassenG/fullstackweekend-aparatus-v2.git](https://github.com/DouglassenG/fullstackweekend-aparatus-v2.git)
+
+# 2. Acesse a pasta do projeto
+cd fullstackweekend-aparatus-v2
+
+# 3. Instale as dependências
+npm install
+# (Caso ocorra erro de conflito de versões, tente: npm install --legacy-peer-deps)
+
+# 4. Inicie o servidor de desenvolvimento
+npm run dev
