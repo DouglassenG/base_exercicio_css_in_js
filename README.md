@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+# 🏗️ Base React - CSS-in-JS Boilerplate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Status](https://img.shields.io/badge/Status-Template-blue)
+![React](https://img.shields.io/badge/Framework-React-61DAFB?logo=react&logoColor=black)
+![Styled Components](https://img.shields.io/badge/Lib-Styled_Components-DB7093?logo=styled-components&logoColor=white)
+![Vite](https://img.shields.io/badge/Build_Tool-Vite-646CFF?logo=vite&logoColor=white)
 
-## Available Scripts
+> Uma estrutura de projeto limpa e pré-configurada, desenhada para iniciar rapidamente o desenvolvimento de interfaces utilizando a metodologia CSS-in-JS.
 
-In the project directory, you can run:
+## 🎯 Motivação e Propósito
 
-### `npm start`
+Configurar um ambiente React do zero repetidamente consome tempo valioso. O propósito deste repositório é servir como um **Scaffold (Andaime)** para exercícios e projetos futuros.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Ele resolve o problema da "fadiga de configuração" (setup fatigue), entregando um ambiente onde o **Styled Components** já está instalado e integrado, e os arquivos desnecessários de um *create-react-app* padrão já foram removidos, permitindo que o desenvolvedor foque puramente na arquitetura de estilos e lógica de componentes.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠️ Tecnologias Utilizadas
 
-### `npm test`
+A stack é minimalista, contendo apenas o essencial para a estilização moderna:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **[ReactJS](https://react.dev/):** Biblioteca base para a construção da UI.
+* **[Styled Components](https://styled-components.com/):** Biblioteca instalada e configurada para permitir escrita de CSS dentro de arquivos JS/TS.
+* **[Vite](https://vitejs.dev/):** Ferramenta de build utilizada para garantir um servidor de desenvolvimento ultra-rápido (HMR).
+* **[JavaScript (ES6+)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript):** Linguagem padrão do projeto.
 
-### `npm run build`
+## ✨ Funcionalidades
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Como um projeto base, suas funcionalidades são estruturais:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  **Dependências Pré-instaladas:** O `package.json` já inclui `styled-components`, eliminando a necessidade de instalação manual.
+2.  **Limpeza de Código:** Remoção de arquivos de CSS globais desnecessários e logos padrão que vêm na instalação default do React.
+3.  **Estrutura Pronta:** Pastas organizadas para receber novos componentes e estilos.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 Estrutura de Arquivos
 
-### `npm run eject`
+A organização é simplificada para facilitar a expansão:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```text
+base_exercicio_css_in_js/
+├── src/
+│   ├── components/      # Diretório reservado para componentes isolados
+│   ├── App.jsx          # Componente Raiz limpo
+│   ├── main.jsx         # Ponto de entrada da aplicação
+│   └── index.css        # (Opcional) Reset básico ou CSS global mínimo
+├── public/              # Assets estáticos
+├── index.html           # HTML base
+├── package.json         # Lista de dependências e scripts
+└── vite.config.js       # Configuração do bundler
